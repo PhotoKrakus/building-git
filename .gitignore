@@ -1,0 +1,132 @@
+##### Sass
+.sass-cache/
+*.css.map
+
+#####
+.htaccess
+*.txt
+*.xml
+
+##### vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+##### NetBeans
+nbproject/
+nbproject/private/
+build/
+nbbuild/
+nbdist/
+dist/
+.nb-gradle/
+
+##### Sublime text
+# Cache files for Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Workspace files are user-specific
+*.sublime-workspace
+*.sublime-project
+
+# SFTP configuration file
+sftp-config.json
+
+# Package control specific files
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
+
+# Sublime-github package stores a github token in this file
+# https://packagecontrol.io/packages/sublime-github
+GitHub.sublime-settings
+
+##### Numerous always-ignore extensions
+*.diff
+*.err
+*.eot
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.svg
+*.tar
+*.ttf
+*.woff
+*.woff2
+*.zip
+*.xml
+*.url
+*.png
+*.jpeg
+*.jpg
+*.gif
+*.ico
+*~
+
+images
+images/*
+fonts
+fonts/*
+
+assets/fonts/
+assets/fonts/*
+assets/images/
+assets/images/*
+
+##### OS or Editor folders
+.DS_Store
+$RECYCLE.BIN/
+Desktop.ini
+Thumbs.db
+.cache
+.settings
+.project
+.idea
+
+._*
+*.swp
+
+##### Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+##### Windows shortcuts
+*.lnk
+
+##### Folders to ignore Yeoman
+temp
+tmp
+.tmp
+node_modules/
+bower_components/
+build/
+dist/
+
+##### Others
+npm-debug.log
+.rbenv
+.rbenv-version
+.ruby-gemset
+.ruby-version
+.rvmrc
+.vagrant
